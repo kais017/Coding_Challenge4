@@ -39,6 +39,16 @@ responses++;
 } while (responses < 4);
 // collect responses until it reaches 3
 
+// Task 5: For... In Loop Employee Info
+let employee = {name: "Madison", position: "Director", salary: 200000};
+// declared an object with properties
+
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+    };
+
+
+    
 
 
 
