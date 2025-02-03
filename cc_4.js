@@ -25,11 +25,19 @@ console.log(`Total Sales: $${totalSales}`);
 
 // Task 3: While Loop for a Customer Survey
 let stock = 10;
-while (stock > 0) 
+while (stock > -1) 
     { console.log(`Stock: ${stock}`); stock--; }
 // decrease stock until it reaches 0
 console.log("Inventory Depleted.");
 
+// Task 4: Do... While Loop
+let responses = 0;
+
+do { console.log(`responses: ${responses}`);
+responses++; 
+    
+} while (responses < 4);
+// collect responses until it reaches 3
 
 
 
