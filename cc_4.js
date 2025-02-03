@@ -86,4 +86,17 @@ return discount;
 console.log(`Discounted Price: $${applyDiscount(price, percent)}`);
 // logging the discounted price
 
+// Task 10: Arrow Functions
+let amountSpent = 40; 
+
+const calculatePoints = (amountSpent) =>  {
+    const points = (amountSpent / 10);
+ return points;
+};
+// calculate the total points earned for every $10 spent
+
+console.log(`Points Earned: ${calculatePoints(amountSpent)} Amount Purchased: $${amountSpent}`);
+// logging task 10
+
+
 
