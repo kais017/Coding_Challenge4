@@ -47,6 +47,15 @@ for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
     };
 
+// Task 6: For... Of Loop | Product Listing
+let products = ["plate", "bowl", "mug"];
+// declared an array with products
+
+for (const product of products) {
+    console.log(`Product: ${product}`);
+}
+// displaying each product
+
 
     
 
