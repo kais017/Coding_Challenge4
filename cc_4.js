@@ -64,6 +64,16 @@ orders.forEach((order, index) => {
 });
 // log each order ID
 
+// Task 8: Function Declaration
 
+let amount = 200;
+let taxRate = 8;
+function calculateTax(amount, taxRate) {
+   const tax = amount * (taxRate / 100);
+    return tax;
+}; // calculating the amount after tax
+
+console.log(`Amount after tax $${calculateTax(amount, taxRate)}`);
+// logging the amount after tax
 
 
