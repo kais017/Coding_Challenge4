@@ -69,11 +69,21 @@ orders.forEach((order, index) => {
 let amount = 200;
 let taxRate = 8;
 function calculateTax(amount, taxRate) {
-   const tax = amount * (taxRate / 100);
+   const tax = amount - (amount * (taxRate / 100));
     return tax;
 }; // calculating the amount after tax
 
-console.log(`Amount after tax $${calculateTax(amount, taxRate)}`);
+console.log(`Amount after tax: $${calculateTax(amount, taxRate)}`);
 // logging the amount after tax
+
+// Task 9: Function Expressions
+let price = 400
+let percent = 2
+function applyDiscount(price, percent) {
+    const discount = price - (price * (percent / 100));
+return discount;
+}; // calculating the discounted price
+console.log(`Discounted Price: $${applyDiscount(price, percent)}`);
+// logging the discounted price
 
 
