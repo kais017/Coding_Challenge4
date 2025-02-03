@@ -21,3 +21,17 @@ for (let i = 0; i < sales.length; i++) {
 // Using a for loop to help calculate the total sales
 
 console.log(`Total Sales: $${totalSales}`);
+// logging total sales
+
+// Task 3: While Loop for a Customer Survey
+let stock = 10;
+while (stock > 0) 
+    { console.log(`Stock: ${stock}`); stock--; }
+// decrease stock until it reaches 0
+console.log("Inventory Depleted.");
+
+
+
+
+
+
